@@ -1,0 +1,36 @@
+.footer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 120px;
+  background-color: rgba(0, 0, 0, 0.768);
+}
+
+.footer__text p {
+  color: white;
+}
+
+.icons__footer {
+  display: flex;
+  gap: 1rem;
+}
+
+.icons__footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  aspect-ratio: 1;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+}
+
+.icons__footer i:hover {
+  filter: brightness(1.2);
+}

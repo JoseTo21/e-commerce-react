@@ -1,0 +1,46 @@
+.filterCatergory {
+  height: 47vh;
+  background-color: white;
+  width: 320px;
+}
+
+.filterCatergory__title {
+  text-align: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.filterCatergory__title:hover {
+  color: #f85555;
+}
+
+.filterCatergory__container {
+  display: flex;
+  justify-content: center;
+}
+
+.filterCatergory__list-complete {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: normal;
+}
+
+.filterCatergory__list-complete li {
+  cursor: pointer;
+}
+
+.filterCatergory__list-complete li:hover {
+  color: #f85555;
+}
+
+.filterCatergory__list {
+  font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+  .filterCatergory {
+    height: 300px;
+    background-color: transparent;
+  }
+}

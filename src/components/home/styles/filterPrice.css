@@ -1,0 +1,59 @@
+.filterprice {
+  height: 47vh;
+  background-color: white;
+  max-width: 320px;
+}
+
+.filterprice__title {
+  text-align: center;
+  cursor: pointer;
+}
+
+.filterprice__title:hover {
+  color: #f85555;
+}
+
+.filterprice__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.filterprice__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.filterprice__from,
+.filterprice__to {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 200px;
+  font-weight: normal;
+}
+
+.filterprice__from input,
+.filterprice__to input {
+  height: 30px;
+}
+
+.filterprice__btn {
+  width: 200px;
+  height: 30px;
+  color: white;
+  background-color: #f85555;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .filterprice {
+    height: 300px;
+    background-color: transparent;
+  }
+}

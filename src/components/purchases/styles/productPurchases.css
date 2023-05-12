@@ -1,0 +1,35 @@
+.prodpurchase {
+  display: grid;
+  grid-template-columns: 5rem 0.9fr 2rem 1.5rem;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+  max-width: 25rem;
+}
+
+.prodpurchase__title {
+  font-weight: 500;
+}
+
+.prodpurchase__quantity {
+  border: 1px solid gray;
+  text-align: center;
+  width: 2rem;
+  font-weight: 300;
+}
+
+.prodpurchase__price {
+  font-weight: 700;
+}
+
+.prodpurchase__price::before {
+  content: "$";
+  padding-right: 0.3rem;
+}
+
+@media (min-width: 1200px) {
+  .prodpurchase {
+    gap: 15rem;
+    grid-template-columns: 15rem 15rem 15rem 15rem;
+  }
+}

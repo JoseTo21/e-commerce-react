@@ -1,0 +1,46 @@
+.header {
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header__title {
+  font-size: 1.5rem;
+  color: #f85555;
+}
+
+nav {
+  display: flex;
+}
+
+.navbar__list {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.list__item {
+  border: 1px solid rgba(128, 128, 128, 0.229);
+  border-radius: 1rem;
+  padding: 0.1rem;
+}
+
+@media (min-width: 1200px) {
+  .header {
+    justify-content: space-evenly;
+  }
+
+  .header__title {
+    font-size: 3rem;
+  }
+
+  .navbar__list {
+    gap: 1.5rem;
+    font-size: 1.5rem;
+  }
+}
