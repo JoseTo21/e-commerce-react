@@ -1,5 +1,5 @@
 import useCrudCart from "../../hooks/useCrudCard";
-import "./styles/productincart.css";
+import "./styles/productInCart.css";
 
 const ProductsInCart = ({ prodCart }) => {
   const { deleteProductFromCart } = useCrudCart();
