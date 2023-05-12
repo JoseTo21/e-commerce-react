@@ -39,13 +39,13 @@ const Register = () => {
           <input {...register("phone")} type="tel" id="phone" />
         </div>
         <button className="register__btn">Register</button>
-        <p className="register__login">
-          Already have an account?{" "}
-          <Link className="login" to={"/login"}>
-            Log in!
-          </Link>
-        </p>
       </form>
+      <p className="register__login">
+        Already have an account?{" "}
+        <Link className="login" to={"/login"}>
+          Log in!
+        </Link>
+      </p>
     </div>
   );
 };

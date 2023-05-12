@@ -28,13 +28,13 @@ const Login = () => {
           <input type="password" id="password" />
         </div>
         <button className="login__btn">Login</button>
-        <p className="login__singup">
-          Don't have an account?{" "}
-          <Link className="singup" to={"/register"}>
-            Sing up!
-          </Link>
-        </p>
       </form>
+      <p className="login__singup">
+        Don't have an account?{" "}
+        <Link className="singup" to={"/register"}>
+          Sing up!
+        </Link>
+      </p>
     </div>
   );
 };
