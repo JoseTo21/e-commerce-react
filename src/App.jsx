@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import { useEffect } from "react";
 import { getAllProductsThunk } from "./store/slices/products.slice";
 import { useDispatch } from "react-redux";
-import Header from "./components/shared/header";
+import Header from "./components/shared/Header";
 import ProductId from "./pages/ProductId";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
